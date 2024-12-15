@@ -1,0 +1,3 @@
+## Hyprland
+
+hyprland waybar wofi swaync hyprshot hyprlock hypridle
