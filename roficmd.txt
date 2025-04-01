@@ -1,0 +1,8 @@
+# command to open rofi
+
+rofi -show drun -modi drun -line-padding 4 -hide-scrollbar -show-icons
+
+
+date format = %a, %b %e, %-I:%M
+
+tooltip = %A, %B %e,%Y %H:%M
