@@ -52,7 +52,7 @@ end
 beautiful.init(gears.filesystem.get_themes_dir() .. "default/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
-terminal = "kitty"
+terminal = "xfce4-terminal"
 editor = os.getenv("EDITOR") or "editor"
 editor_cmd = terminal .. " -e " .. editor
 
@@ -583,4 +583,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 -- Added startup programs
 
--- awful.spawn.with_shell("picom")
+awful.spawn.with_shell("picom --animations -b")
