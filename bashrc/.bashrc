@@ -127,4 +127,4 @@ esac
 
 export PATH=/home/mattm/.local/bin:$PATH
 
-#eval "$(starship init bash)"
+eval "$(starship init bash)"
