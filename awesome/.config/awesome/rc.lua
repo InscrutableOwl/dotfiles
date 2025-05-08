@@ -583,4 +583,4 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 
 -- additions to config
 
-awful.spawn.with_shell("picom --animations -b")
+awful.spawn.with_shell("picom --experimental-backend -b")
