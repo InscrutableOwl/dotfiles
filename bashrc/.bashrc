@@ -126,4 +126,3 @@ xterm*|rxvt*)
 esac
 
 export PATH=/home/mattm/.local/bin:$PATH
-eval "$(starship init bash)"
