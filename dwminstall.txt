@@ -1,0 +1,41 @@
+## DWM install
+
+sudo apt install build-essential libx11-dev libxft-dev libxinerama-dev libfreetype6-dev libfontconfig1-dev
+
+mkdir 'dwm'
+
+## clone dwm dmenu st
+
+https://git.suckless.org
+
+## in each cloned directory
+
+make
+
+sudo make clean install
+
+## dwm.desktop ## /usr/share/xsessions/
+
+[Desktop Entry]
+Encoding=UTF-8
+Name=Dwm
+Comment=Dynamic window manager
+Exec=/usr/local/bin/dwm  ## or Exec=/home/$USER/'dwm'/autostart
+Icon=dwm
+Type=XSession
+
+## **After any changes to config.h must perform 'sudo make clean install'
+
+## autostart
+
+# polkit
+
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+
+# picom
+
+picom -b &
+
+# dunst
+
+dunst -config /path/to/config/dunstrc &
