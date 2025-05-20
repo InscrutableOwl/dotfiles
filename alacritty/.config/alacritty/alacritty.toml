@@ -1,0 +1,14 @@
+## Alacritty configuration
+
+[general]
+import = [
+	"~/.config/alacritty/themes/themes/hyper.toml"
+]
+
+[window]
+opacity = 0.8
+
+[font]
+normal = {family = 'JetBrainsMono Nerd Font Mono', style = "Regular"}
+size = 14
+
