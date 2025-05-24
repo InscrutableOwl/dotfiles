@@ -127,3 +127,4 @@ esac
 
 export PATH=/home/mattm/.local/bin:$PATH
 fastfetch
+export PATH=/home/mattm/.local/bin:$PATH
