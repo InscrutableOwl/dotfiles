@@ -113,3 +113,4 @@ if ! shopt -oq posix; then
 fi
 export PATH=/home/mattm/.local/bin:$PATH
 fastfetch
+export PATH=/home/mattm/.local/bin:$PATH
