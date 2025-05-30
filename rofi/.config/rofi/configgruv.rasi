@@ -8,11 +8,11 @@ configuration {
 
 * {
     font: "Jetbrains Mono 12";
-    foreground: #A7C080;
-    background-color: #272E33;
-    active-background: #56635F;
-    urgent-background: #ff5555;
-    urgent-foreground: #DBBC7F;
+    foreground: #ebdbb2;
+    background-color: #282828;
+    active-background: #d79921;
+    urgent-background: #cc241d;
+    urgent-foreground: #282828;
     selected-background: @active-background;
     selected-urgent-background: @urgent-background;
     selected-active-background: @active-background;
