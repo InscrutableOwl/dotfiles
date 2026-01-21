@@ -1,0 +1,8 @@
+MakeMKV
+
+M-P6sniMCprfbjaDfvg03BFb5ddu4xl7QLVWy3uV8@4seD3t_hVU@EQwwJuxgsZvWXF2
+
+
+Chromium on Pi - fix for desktop keyring
+
+Menu > Internet . Chromium (right click for properties) change desktop entry to read "/usr/bin/chromium --password-store=basic %U"
