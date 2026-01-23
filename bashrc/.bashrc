@@ -113,4 +113,4 @@ if ! shopt -oq posix; then
 fi
 export PATH=/home/mattm/.local/bin:$PATH
 
-eval "$(starship init bash)"
+# eval "$(starship init bash)"
