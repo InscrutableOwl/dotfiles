@@ -4,7 +4,7 @@
 #  lxpolkit &
 
 # background
-nitrogen --restore &
+# nitrogen --restore &
 
 # compositor
 picom --animations -b &
