@@ -25,10 +25,10 @@
 # ==========================
 # # The config file consists of simple key-value pairs,
 # # separated by equals signs.
-font-family = MartianMono Nerd Font Condensed Mono
-font-size = 16
+font-family = JetBrainsMono Nerd Font Mono
+font-size = 12
 
-theme = TokyoNight
+theme = Dracula
 
 background-opacity = 0.85
 
