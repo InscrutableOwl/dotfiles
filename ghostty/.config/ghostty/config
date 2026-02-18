@@ -32,6 +32,9 @@ theme = Dracula
 
 background-opacity = 0.85
 
+window-height = 30
+window-width = 100
+
 # window-padding-x = 2
 #
 # # Spacing around the equals sign does not matter.
