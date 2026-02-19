@@ -13,6 +13,12 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
 fi
 export PATH
 
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+
+
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
@@ -25,3 +31,4 @@ if [ -d ~/.bashrc.d ]; then
     done
 fi
 unset rc
+. "$HOME/.cargo/env"
