@@ -37,7 +37,7 @@ def run_autostart():
 
 
 mod = "mod4"
-terminal = "ghostty"
+terminal = "kitty"
 
 keys = [
     # A list of available commands that can be bound to keys can be found
