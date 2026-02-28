@@ -1,8 +1,16 @@
+[general]
+
+import = [
+    "~/.config/alacritty/themes/dracula-pro.toml"
+]
+
 [font]
 
 normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
+size = 14
 
 [window]
 
+dimensions = { columns = 110, lines = 35 }
 opacity = 0.8
 
