@@ -1,5 +1,8 @@
 [general]
 
+import = [
+    "~/.config/alacritty/themes/dracula-pro.toml"
+]
 
 [font]
 
