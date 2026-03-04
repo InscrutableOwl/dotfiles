@@ -2,6 +2,7 @@
 
 configuration {
     show-icons:      true;
+    icon-theme: "Papirus-Dark";
     display-drun:    "";
     disable-history: false;
 }
