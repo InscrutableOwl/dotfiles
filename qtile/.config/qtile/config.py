@@ -78,7 +78,7 @@ for vt in range(1, 8):
 
 
 groups = [Group(i) for i in "123456789"]
-
+# group_labels = ["", "", "󰨞", "󰕧", "󰝚", "6", "7", "8", "9"]
 for i in groups:
     keys.extend(
         [
@@ -120,8 +120,8 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="sans",
-    fontsize=12,
+    font="MartianMono Nerd Font",
+    fontsize=14,
     padding=3,
 )
 extension_defaults = widget_defaults.copy()
@@ -131,8 +131,8 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.CurrentLayout(),
                 widget.GroupBox(),
+                widget.CurrentLayout(),
                 widget.Prompt(),
                 widget.WindowName(),
                 widget.Chord(
