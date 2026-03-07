@@ -12,7 +12,6 @@ if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]; then
     PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 fi
 export PATH
-
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -35,3 +34,4 @@ if [ -d ~/.bashrc.d ]; then
 fi
 unset rc
 
+PATH="$HOME/.cargo/bin:$PATH"
