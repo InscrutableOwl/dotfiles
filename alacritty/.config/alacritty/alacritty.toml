@@ -13,4 +13,5 @@ size = 14
 
 dimensions = { columns = 110, lines = 35 }
 opacity = 0.8
+blur = true
 
