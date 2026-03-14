@@ -1,7 +1,7 @@
 [general]
 
 import = [
-    "~/.config/alacritty/themes/nightfox.toml"
+    "~/.config/alacritty/themes/dracula-pro-van-helsing.toml"
 ]
 
 [font]
